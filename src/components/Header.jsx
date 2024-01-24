@@ -8,7 +8,7 @@ function Header() {
         <Link to='/' style={{textDecoration:"none"}}>
         <div><h1 className='header-title-div'>Davam Garlands</h1></div>
         </Link>
-        <div><h3 className='contact-title-div'><a href='https://wa.me/15516890587?text=Hi!Welcome to Davam Garlands'>WhatsApp me @ : <p className='phonenumber'>551-689-0587</p></a></h3></div>
+        <div><h3 className='contact-title-div'><a href='https://wa.me/15516890587?text=Hi!I would like to know more about the garlands!!'>WhatsApp me @ : <p className='phonenumber'>551-689-0587</p></a></h3></div>
 
     </div>
   )
