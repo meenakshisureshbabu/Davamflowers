@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://img.freepik.com/free-vector/watercolor-abstract-floral-background_52683-134424.jpg");
+    background-image: url("https://i.makeagif.com/media/5-17-2023/9g_sRo.gif");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -25,7 +25,6 @@ aside{
 
 .header-title-div{
     font-family: customfont;
-    text-decoration: underline;
     margin-left: 2rem;
 }
 
@@ -45,6 +44,7 @@ aside{
 
 .welcome-div{
     font-family: customfont;
+    
 }
 
 

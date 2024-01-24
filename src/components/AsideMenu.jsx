@@ -13,7 +13,7 @@ function AsideMenu() {
             </Link>
             <Link to='/poojaflowers'>
                 <div>
-                    <h2>Pooja Flowers</h2>
+                    <h2>Pooja Garlands</h2>
                 </div>
             </Link>
             <Link to='/rosegarlands'>

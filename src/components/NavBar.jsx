@@ -11,9 +11,7 @@ function NavBar() {
             <div>
                 <AsideMenu/>
             </div>
-            <div className='welcome-div'>
-                <h1>Welcome to Davam Flowers</h1>
-            </div>
+            
         </div>
     </div>
   )
