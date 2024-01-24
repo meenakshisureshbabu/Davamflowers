@@ -26,10 +26,10 @@ function StringFlowers() {
                                     <div>
                                         <img className="flower-images" src={data.image} alt=""/>
                                     </div>
-                                    <div>
+                                    <div className='name'>
                                         <p>{data.name}</p>
                                     </div>
-                                    <div>
+                                    <div className='rate'>
                                         <h3>{data.rate}</h3>
                                     </div>
                                 </div>

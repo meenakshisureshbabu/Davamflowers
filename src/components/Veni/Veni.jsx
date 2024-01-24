@@ -24,11 +24,11 @@ function Veni() {
                                     <div>
                                         <img className="veni-images" src={data.image} alt=""/>
                                     </div>
-                                    <div>
+                                    <div className='name'>
                                         <p>{data.name}</p>
                                     </div>
                                     <div>
-                                        <h3>{data.rate}</h3>
+                                        <h3 className='rate'>{data.rate}</h3>
                                     </div>
                                 </div>
                             </div>

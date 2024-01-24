@@ -2,7 +2,7 @@ body{
     background-image: url("https://img.freepik.com/free-vector/watercolor-abstract-floral-background_52683-134424.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: customfont;
+    
 }
 @font-face{
     font-family: customfont;
@@ -12,7 +12,7 @@ body{
 
 aside{
     
-    
+    font-family: customfont;
     border-radius: 15px;
     /* margin: 2rem 2rem 2rem 2rem; */
     margin-left: 2rem;
@@ -34,11 +34,18 @@ aside{
     margin-right: 2rem;
 }
 
+.phonenumber{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .header-div{
     display: flex;
     justify-content: space-between;
 }
 
+.welcome-div{
+    font-family: customfont;
+}
 
 
 .nav-inner-div{
