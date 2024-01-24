@@ -40,3 +40,12 @@ aside{
 }
 
 
+
+.nav-inner-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+

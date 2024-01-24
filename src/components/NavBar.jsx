@@ -7,7 +7,14 @@ function NavBar() {
   return (
     <div className='nav-div'>
         <Header/>
-        <AsideMenu/>
+        <div className='nav-inner-div'>
+            <div>
+                <AsideMenu/>
+            </div>
+            <div className='welcome-div'>
+                <h1>Welcome to Davam Flowers</h1>
+            </div>
+        </div>
     </div>
   )
 }
