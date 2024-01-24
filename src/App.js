@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import {Routes,Route} from 'react-router-dom'
+import NavBar from './components/NavBar';
+import StringFlowers from './components/StringFlowers/StringFlowers';
+import PoojaFlowers from './components/Pooja/PoojaFlowers';
+import RoseGarlands from './components/Rose/RoseGarlands';
+import Veni from './components/Veni/Veni';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<NavBar/>}/>
+        <Route path='/stringflowers' element={<StringFlowers/>}/>
+        <Route path='/poojaflowers' element={<PoojaFlowers/>}/>
+        <Route path='/rosegarlands' element={<RoseGarlands/>}/>
+        <Route path='/veni' element={<Veni/>}/>
+      </Routes>
+      
     </div>
   );
 }

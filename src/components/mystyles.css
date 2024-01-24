@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/watercolor-abstract-floral-background_52683-134424.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: customfont;
+}
+@font-face{
+    font-family: customfont;
+    src:url("AnandaBlackPersonalUseRegular-rg9Rx.ttf");
+    unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
+}
+
+aside{
+    
+    
+    border-radius: 15px;
+    /* margin: 2rem 2rem 2rem 2rem; */
+    margin-left: 2rem;
+    height: 75vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header-title-div{
+    font-family: customfont;
+    text-decoration: underline;
+    margin-left: 2rem;
+}
+
+.contact-title-div{
+    font-family: customfont;
+    margin-right: 2rem;
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+

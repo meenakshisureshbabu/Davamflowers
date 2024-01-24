@@ -1,0 +1,24 @@
+.rose-pic-div{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    width: 75%;
+    overflow-y: scroll;
+    height: 80vh;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+}
+
+.rose-page-div{
+    display: flex;
+}
+
+.rose-inner{
+    /* border: solid green; */
+}
+
+p{
+    font-size: larger;
+}

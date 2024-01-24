@@ -1,0 +1,35 @@
+.string-page-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.string-pic-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    width: 75%;
+    overflow-y: scroll;
+    height: 80vh;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+}
+
+.flower-images{
+    width: 270px;
+    height: 300px;
+}
+
+p{
+    font-size: larger;
+}
+
+.flower-inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flower-inner{
+    /* border: solid green; */
+}
