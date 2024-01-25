@@ -21,17 +21,17 @@ const rosegarlands = [
     {
         name:"Rose and baby breath",
         image:"Rose1.jpg",
-        rate:"$65-$90"
+        rate:"$65-$90 per garland"
     },
     {
         name:"Rose and Lilly",
         image:"Rose2.jpg",
-        rate:"$65-$90"
+        rate:"$65-$90 per garland"
     },
     {
         name:"Red and White Rose",
         image:"Rose3.jpg",
-        rate:"$65-$90"
+        rate:"$65-$90 per garland"
     }
 
 ]
