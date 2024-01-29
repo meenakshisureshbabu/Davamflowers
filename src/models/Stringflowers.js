@@ -132,7 +132,7 @@ const poojagarlands = [
         name:"Full Rose and Lilly",
         image:"Pooja7.jpg",
         rate:"$10-$20"
-    }
+    },
     {
         name:"Rose and Lilly",
         image:"Pooja9.jpg",
